@@ -39,12 +39,11 @@ a {
     text-decoration: none;
 }
 
-/* GLOBAL CSS */
-
-
-.header-section .header-text p {
-    color: red;
+.col img {
+    border-radius: 75px;
 }
+
+/* GLOBAL CSS */
 
 
 /* ABOUT ME */
@@ -61,7 +60,7 @@ a {
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 75px;
 }
 
 .about-col-2 {
@@ -171,9 +170,9 @@ section .section-title {
 }
 
 
-/* HEADER */
+/* HEADER HOME */
 .header-section .header-title {
-    font-size: var(--h2-font-size);
+    font-size: 40px;
 }
 
 .header-section .header-skill {
@@ -192,13 +191,12 @@ section .section-title {
     transform: rotate(-45deg);
 }
 
-.header-section .skills-section .skills-img {
-    width: 250%;
-    justify-content: end;
-}
 
 
-/* PORTFOLIO */
+/* END HEADER HOME */
+
+
+/* PORTFOLIO ABOUT ME*/
 
 .portfolio-section .card .card-img-top {
     height: 240px;
@@ -216,20 +214,6 @@ section .section-title {
     background-color: #030304;
 }
 
-.skills-section .progress-bar {
-    width: 100%;
-    height: 10px;
-    border-radius: 10px;
-    background-color: var(--gray-color);
-}
-
-.skills-section .progress-bar .progress {
-    background-color: var(--primary-color);
-}
-
-.var-swiper {
-    text-align: center;
-}
 
 input[type=text], select, textarea {
     width: 100%; 
@@ -242,7 +226,8 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-  /* Style the submit button with a specific background color etc */
+  /* Style the submit button */
+  
   input[type=submit] {
     background-color: #ffffff;
     color: black;
@@ -250,11 +235,6 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  
-  input[type=submit]:hover {
-    background-color: rgb(4, 187, 56);
   }
   
   
